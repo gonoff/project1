@@ -1,0 +1,36 @@
+# PHP
+*.log
+*.cache
+
+# Database
+*.sql.backup
+*.sql.gz
+
+# Config files with sensitive data (if any)
+# config/database.php
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Dependencies
+vendor/
+node_modules/
+
+# User uploads (if you add this feature)
+uploads/
+files/
+
+# Session files
+sessions/

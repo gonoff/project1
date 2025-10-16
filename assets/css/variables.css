@@ -1,0 +1,63 @@
+/* CSS Variables */
+:root {
+    /* Creme Background Colors */
+    --bg-primary: #f5f3e8;        /* Soft creme for main background */
+    --bg-secondary: #e8e4d4;      /* Slightly darker creme */
+    --bg-card: #faf8f0;           /* Light creme for cards */
+    --bg-dark: #2a2520;           /* Deep brown for dark areas */
+
+    /* Desaturated Dark Colorful Buttons & Text */
+    --primary-color: #5d6b7a;     /* Desaturated blue-grey */
+    --primary-dark: #464f59;      /* Darker blue-grey */
+    --primary-light: #7a8a9a;     /* Lighter blue-grey */
+
+    --secondary-color: #6b7068;   /* Desaturated grey-green */
+    --secondary-dark: #4f544d;    /* Darker grey-green */
+    --secondary-light: #8a8f85;   /* Lighter grey-green */
+
+    --success-color: #5d7052;     /* Desaturated green */
+    --danger-color: #7a5452;      /* Desaturated red */
+    --warning-color: #7a6b4f;     /* Desaturated orange */
+    --info-color: #526d7a;        /* Desaturated teal */
+
+    /* Text Colors - Dark & Desaturated */
+    --text-primary: #3a3330;      /* Deep brown for primary text */
+    --text-secondary: #5d5650;    /* Medium brown for secondary text */
+    --text-light: #8a827a;        /* Light brown for muted text */
+
+    --border-color: #d4cfc0;      /* Subtle border on creme */
+    --border-radius: 0.5rem;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+
+    /* Typography */
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 300ms ease-in-out;
+    --transition-slow: 500ms ease-in-out;
+}

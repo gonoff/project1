@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(mysql:*)",
+      "Bash(./init_db.sh:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
